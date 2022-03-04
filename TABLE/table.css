@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root{
+    --body-color:white;
+    --sidebar-color:rgb(236, 231, 190);
+    --primary-color:rgb(248, 229, 61);
+    --primary-color-light: #F6F5FF;
+    --toggle-color:#DDD;
+    --text-color: black;
+   
+   --tran-02: all 0.2s ease;
+   --tran-03: all 0.3s ease;
+   --tran-04: all 0.3s ease;
+   --tran-05: all 0.3s ease;
+   
+   }
+body{
+    background-color: #e6e6e6;
+    font-family: 'DM Sans', sans-serif;
+}
+
+  /* FORM */
+
+  .main{
+    width: 77%;
+    background-color: #dedee1;
+    height: 600px;
+    margin-left: 19%;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color:#d4d4d5;
+}
+
+
+.main .nav .item{
+    cursor: pointer;
+    width: 25%;
+    margin-left: 10px;
+    padding: 15px 10px;
+}
+
+.nav .item p{
+	font-weight: 800 ;
+	font-size: 1rem !important;
+}
+hr{
+    color: #c2c2c6;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  :-moz-placeholder {
+    text-align: center;
+  }
+  .form-1 {
+    margin: 0.1%;
+    margin-top: 3% !important;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.one_a{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    margin-left: -30px;
+}
+.one_b{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 2%;
+}
+input{
+    width:120px;
+	padding: 8px 0px 8px 0px;
+	border: none;
+}
+.one_a option,select{
+    width:170px;
+	padding: 8px 0px 8px 0px;
+	border: none;
+    cursor: pointer;
+    color: black;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 0.8rem !important;
+}
+.details{
+    font-weight: 800 ;
+	font-size: 1rem !important;
+    margin-right: 6px;
+}
+.add{
+    margin-right: 10px;
+    background-color: #e1b92f;
+    border: 1px solid black;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    padding: 6px 18px 6px 18px;
+    text-decoration: none;
+    color: black !important;
+}
+.add a{
+    text-decoration: none;
+    color: black !important;
+
+}
+.add:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main{
+    background-color: #d3dbd5;
+}
+
+.main .sub-nav{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#d4d4d5;
+}
+
+.main .sub-nav .item{
+    cursor:default;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sub-nav .item p{
+	font-weight: 800 ;
+	font-size: 0.9rem !important;
+}
+.main .sub-nav2{
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .sub-nav2 .item2{
+    cursor:default;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.sub-nav2 .item2 p{
+	font-weight: 800 ;
+}
+.two .two_a{
+    text-align: center;
+    justify-content: center;
+    color: #9ba3aa;
+    position: relative;
+    top: 150px;
+}
+.btn{
+    background-color: #e1b92f;
+    color: black !important;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    border: none;
+    padding: 6px 18px 6px 18px;
+    transition: all 0.3s linear 0s;
+}
+.btn:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+}
+.sub-wrap .wrap3{
+    background-color: #e6e6e6;
+    align-items: center;
+}
+
+.bodyTable{
+    display: inline-block;
+    width: -webkit-fill-available;
+    height:295px;
+    overflow-y: scroll;
+}
+.table td{
+    border: none;
+    
+}
+.sub-nav2:hover{
+    background-color:#c8d0ca !important;
+}
+.sub-nav2:nth-last-of-type(2n){
+    background-color: rgba(0,0,0,.075);
+}
+.sub-nav2:nth-last-of-type(2n+1){
+  background-color:#d3dbd5;
+}
+.rest{
+    width: 10%;
+}
+.table{
+    margin-bottom: 0px;
+}
+p{
+    margin-bottom: 0px;
+}
+.bodyTable::-webkit-scrollbar {
+    display: none;
+  } 
+  .form-control{
+      width:99%;
+  }
+  .col-md-4{
+   max-width:23%;
+  }
+  label{
+      margin-bottom: 0rem;
+  }
