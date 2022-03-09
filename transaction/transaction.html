@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="transaction.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+</head>
+<body>
+    <div class="wrap3">
+        <div class="main">
+            <div class="nav">
+                <div class="item">
+                    <p>Profit & Loss</p>
+                </div>
+            </div>
+            <div class="form-1">
+        <form method="post">        
+                <div class="one">
+                    <div class="one_a">
+                        <div class="input-box">
+                            <label class="details">Merchant</label>
+                            <input style="margin-left: 16px;" type="text" name="merchant">
+                            <!-- <select name="pduration">
+                            <option value="" selected>All</option> 
+                            <option value="">Failed</option>
+                            <option value="">Success</option>
+                            <option value="">Pending</option>
+                            </select> -->
+                        </div>
+                        <div class="input-box">
+                            <label class="details">Date</label>
+                            <input type="date" name="ppid">
+                        </div>
+                        <div class="input-box">
+                            <label class="details">Transaction ID</label>
+                            <input type="text" name="trid">   
+                        </div>
+                        <div class="input-box">
+                            <label class="details">Customer Name</label>
+                            <input name="custname" >
+                        </div>
+                    </div>
+                    <div class="one_b" >
+                        <div class="input-box">
+                            <label style=" margin-left: 19px;" class="details">Customer Email</label>
+                            <input style="margin-left:16px;" type="email" name="custemail">
+                        </div>
+                        <div class="input-box">
+                            <label class="details">Customer Mobile</label>
+                            <input type="tel"  name="custmob" >
+                        </div>
+                        <div class="input-box">
+                            <label class="details">Payment Method</label>
+                            <select name="pduration">
+                              <option value="select">-- Select --</option>
+                                <option value="">Credit Card</option>
+                                <option value="">Paypal</option>
+                                <option value="">Net Banking</option>
+                                <option value="">UPI Payment</option>
+                                <option value="">Wallet</option>
+                                </select>
+                            </div>
+                        <div class="input-box">
+                            <label class="details">Order No.</label>
+                            <input type="text" name="ord">
+                        </div>
+                        
+
+                    </div>
+                    
+                    <div class="one_c">
+                        <!-- <div class="input-box">
+                            <label class="details">Merchant Name</label>
+                            <input type="text" name="mername">
+                            </div> -->
+                            
+                        <!-- <div style="margin-left: -10px;" class="input-box">
+                            <label style="margin-left: -10px;" class="details">Merchant ID</label>
+                            <input type="text" name="merid">
+                        </div> -->
+                        <div  style="margin-top: 15px; margin-left: -182px;" class="input-box">
+                            <label style="width:159px;"class="details">Merchant ID</label>
+                            <input style="width:203px;" type="text" name="mername">
+                        </div>    
+                        
+                        <div class="input-box">
+                            <button style="margin-left: -92px;" type="submit" name="payment" class="btn1">Search</button>
+                        </div>
+                        <div class="input-box">
+                            <button  style="margin-left:-299px ;"type="reset" name="payment" class="btn2">Reset</button>
+                    </div>
+            
+                                
+                </div>
+                <div  style="margin-top: 15px;" class="input-box">
+                    <label style="width:68px;"class="details">Show</label>
+                    <input style="width:41px;" type="text" name="mername">
+                    <label style="width:68px;" class="details">entries</label>
+
+                    <div class="input-box">
+                        <label style="margin-left: 785px;" class="details">Search</label>
+                        <input type="text" name="mername">
+                        </div> 
+                    
+
+                    </div> 
+                    
+                </div>
+            </form>
+           
+            <div class="two">
+                        <table>
+                        <thead>
+                            <h5 class="tot"> Total Records : 500</h5>
+                            <tr class="sub-nav">
+                                <th class="item rest"><p>Order no.</p></th>
+                                <th class="item rest"><p>Merchant ID</p></th>
+                                <th class="item rest"><p>Amount</p></th>
+                                <th class="item rest"><p>Change Merchant</p></th>
+                                <th class="item rest"><p>Charge Acquirer</p></th>
+                                <th class="item rest"><p>Difference</p></th>
+                                <th class="item rest"><p>Date</p></th>
+                                <th class="item rest"><p>Action</p></th>
+                            </tr>
+                    </thead>
+                    <tbody class="bodyTable"> 
+     
+<tr class="sub-nav2 table table-hover table-striped undefined">
+    <td class="item2 rest"><p>A</p></td>
+    <td class="item2 rest"><p>B</p></td>
+    <td class="item2 rest"><p>C</p></td>
+    <td class="item2 rest"><p>D</p></td>
+    <td class="item2 rest"><p>E</p></td>
+    <td class="item2 rest"><p>F</p></td>
+    <td class="item2 rest"><p>G</p></td>
+    <td class="item2 rest"><p>H</p></td>
+    <td class="item2 rest"><p>
+    <button class="edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
+        <button class="edit"><i class="fa fa-envelope" aria-hidden="true"></i></button></p></td>
+
+</tr>
+        
+
+     </tbody>
+ </table>
+</div>
+</div>
+
+</body>
+</html>

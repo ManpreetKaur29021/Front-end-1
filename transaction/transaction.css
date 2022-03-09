@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.edit{
+    background-color: transparent;
+    border: none;
+    margin-left: 2%;
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: #e6e6e6;
+    font-family: 'DM Sans', sans-serif;
+}
+  /* FORM */
+
+  .main{
+    width:77%;
+    background-color: #dedee1;
+    height: 600px;
+    margin-left: 19%;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:#d4d4d5;
+    /* padding: 0 30px; */
+}
+
+.main .nav .item{
+    cursor: pointer;
+    width: 10%;
+    padding: 5px 7px;
+}
+
+.nav .item p{
+    text-align: center;
+	font-weight: 800 ;
+	font-size: 1rem !important;
+}
+hr{
+    color: #c2c2c6;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  :-moz-placeholder {
+    text-align: center;
+  }
+
+  .form-1 {
+    margin: 0.1%;
+    margin-top: 3% !important;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.one_a{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+.one_b{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 1%;
+}
+.one_c{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2%;
+    align-items: center;
+}
+input{
+    width:180px;
+	padding: 8px 0px 8px 0px;
+	border: none;
+}
+.one_a option,select{
+    width:170px;
+	padding: 8px 0px 8px 0px;
+	border: none;
+    cursor: pointer;
+    color: black;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 0.8rem !important;
+}
+.details{
+    font-weight: 500 ;
+    width: 145px;
+}
+
+label{
+    text-align: center;
+}
+
+.main{
+    background-color: #d3dbd5;
+}
+
+.tot{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #e89419;
+}
+
+.main .sub-nav{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#d4d4d5;
+    border: 1px black;
+}
+
+.main .sub-nav .item{
+    cursor:default;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sub-nav .item p{
+	font-weight: 800 ;
+	font-size: 0.9rem !important;
+}
+.main .sub-nav2{
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .sub-nav2 .item2{
+    cursor:default;
+    text-align: center;
+    /* padding: 15px 0; */
+}
+
+.two{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sub-nav2 .item2 p{
+	font-weight: 800 ;
+	font-size: 0.9rem !important;
+}
+
+.two .two_a{
+    text-align: center;
+    justify-content: center;
+    /* color: #9ba3aa; */
+    position: relative;
+    top: 10px;
+}
+
+.btn1{
+    background-color: #70bd70;
+    color: white ;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    border: none;
+    padding: 6px 18px 6px 18px;
+    transition: all 0.3s linear 0s;
+    }
+    .btn1:hover{
+    color:black;
+    cursor: pointer;
+    background-color: rgb(174 235 174);;
+    }
+    .btn2{
+    background-color: #f16161;
+    color: white;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    border: none;
+    padding: 6px 18px 6px 18px;
+    transition: all 0.3s linear 0s;
+    }
+    .btn2:hover{
+    color:black;
+    cursor: pointer;
+    background-color: rgb(241 142 142);
+    }
+
+
+
+
+.sub-wrap .wrap3{
+    background-color: #e6e6e6;
+    align-items: center;
+}
+.bodyTable{
+    display: inline-block;
+    width: -webkit-fill-available;
+    height: 295px;
+    overflow-y: scroll;
+}
+.table td{
+    border: none;
+    
+}
+.sub-nav2:hover{
+    background-color:#c8d0ca !important;
+}
+.sub-nav2:nth-of-type(2n){
+    background-color: rgba(0,0,0,.075);
+}
+.sub-nav2:nth-of-type(2n+1){
+  background-color:#d3dbd5;
+}
+.rest{
+    width: 12%;
+}
+.table{
+    margin-bottom: 0px;
+}
+p{
+    margin-bottom: 0px !important;
+}
+.bodyTable::-webkit-scrollbar {
+    display: none;
+  }
